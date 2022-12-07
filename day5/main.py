@@ -55,6 +55,6 @@ for stack in crate_stacks:
     answer += stack[-1]
 
 
-print(answer)
-
-print('moves:', movements)
+stack_data = data
+print(stack_data)
+stack_data = [l.replace("    ","-") for l in stack_data]
